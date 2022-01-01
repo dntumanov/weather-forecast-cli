@@ -1,7 +1,7 @@
 {
   "name": "weather-forecast-cli",
   "version": "0.0.1",
-  "description": "",
+  "description": "CLI for getting weather",
   "main": "weather.js",
   "bin": {
     "weather": "weather.js"
@@ -24,5 +24,13 @@
   "bugs": {
     "url": "https://gitlab.com/dntumanov/weather-forecast-cli/issues"
   },
-  "homepage": "https://gitlab.com/dntumanov/weather-forecast-cli#readme"
+  "homepage": "https://gitlab.com/dntumanov/weather-forecast-cli#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  }
 }
